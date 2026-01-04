@@ -18,11 +18,18 @@
             font-family: Arial, sans-serif;
             text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
         }
+
+        #videoPlayer {
+            background: transparent;
+        }
     </style>
 </head>
 
 <body>
-    <div id="texte">Hello TikTok !</div>
+    <video id="videoPlayer" autoplay loop muted style="height: 100vh; object-fit: cover;">
+        <source src="0103(1).webm" type="video/webm">
+        Votre navigateur ne supporte pas la lecture vidéo.
+    </video>
 </body>
 
 </html>
